@@ -1,0 +1,9 @@
+test_name: Validar contrato da API de produtos
+
+stages:
+  - name: Requisicao GET para listar produtos
+    request:
+      url: "http://localhost:8000/api/produtos"
+      method: GET
+    response:
+      status_code: 200
