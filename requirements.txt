@@ -1,8 +1,9 @@
 fastapi
 uvicorn
+pydantic
 pytest
 pytest-cov
 pytest-bdd
-pytest-mock
 tavern
 selenium
+httpx
